@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+
+$bgMain: #131722;
+$ColorMain: #fff;
+$light-bg: #24baef;
+$border-Color: #949cb0;
+
+body
+{
+    background-color: $bgMain;
+    color: $ColorMain;
+    font-family: 'Montserrat Alternates', sans-serif !important;   
+}
+
+.brdr
+{
+    background-color: $border-Color;
+    height: 1px;
+}
+
+h3
+{
+    color: $light-bg;
+}
+footer
+{
+    background-color: $bgMain;
+}
+
+
+// strat navbar
+
+.navbar 
+{
+    .navbar-brand 
+    {
+        color: $ColorMain;
+    }
+    .navbar-nav
+    {
+        color: $ColorMain !important;
+    }   
+    .nav-link
+    {
+        color: $ColorMain !important;
+
+    }
+}
+
+li 
+{
+    list-style: none;
+}
+// end navbar
+
+.calc
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.vote 
+{
+    background-color: $light-bg;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+}
+
+img
+{
+    width: 100%;
+    // aspect-ratio: 3/3;
+    // object-fit: cover;
+}
+span
+{
+    cursor: pointer;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
